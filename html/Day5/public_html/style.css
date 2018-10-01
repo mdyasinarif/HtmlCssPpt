@@ -1,0 +1,78 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 1, 2018, 1:37:07 PM
+    Author     : User
+*/
+
+#mainDiv{
+    width: 80%;
+    height: 800px;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background: green;
+}
+.logo{
+    width: 25%;
+    height: 100px;
+    float: left;
+}
+.hedline{
+    width: 75%;
+    height: 100px;
+    float: left;
+}
+.nav{
+    width: 100%;
+    height: 50px;
+    background: #ED1C24;
+}
+.nav ul{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.nav ul li {
+	display: inline-block;
+	padding: 6px 0px;
+	margin: 10px;
+	background: #008000;
+}
+.nav ul li a {
+	padding: 16px;
+	margin: 0px;
+	font-size: 18px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.nav ul li a:hover{
+    background: blueviolet;
+    color: white;
+}
+.contain{
+    width:100%;
+    height: 550px;
+}      
+.containleft{
+    width: 30%;
+    height: 550px;
+    background: grey;
+    float: left;
+}           
+.containright{
+    width: 70%;
+    height: 550px;
+    background: gainsboro;
+    float: left;
+}          
+.footer{
+    width: 100%;
+    height: 100px;
+    background: greenyellow;
+}

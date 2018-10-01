@@ -1,0 +1,38 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 1, 2018, 4:43:17 PM
+    Author     : User
+*/
+body{
+    background: lightslategray;
+}
+.lightblue{
+    background: lightskyblue;
+}
+.lightblue{
+    background: lightskyblue;
+}
+#mainDiv{
+    width: 80%;
+    height: 1000px;
+    margin: 0 auto;
+}
+.row{
+    width: 100%;
+    height: 50px;
+   
+}                    
+.leftcal{
+    width: 30%;
+    height: auto;
+    float: left;
+}  
+.rightcal{
+    width: 70%;
+    height: auto;
+    float: left;
+}
