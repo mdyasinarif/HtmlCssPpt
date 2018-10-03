@@ -1,0 +1,46 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 3, 2018, 10:27:02 AM
+    Author     : Md Yasin Arif
+*/
+
+#mainDiv{
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+}
+.Heder{
+    width: 100%;
+    height: 100px;
+    background:gray;
+}
+.Contain{
+    width: 100%;
+    height: 600px;
+}
+.left{
+    width: 10%;
+    height: 600px;
+    background: #c52;
+    float: left;
+}
+.left a {
+    text-align: center;
+    text-decoration: none;
+    display: 
+}
+.right{
+    width: 90%;
+    height: 600px;
+    background: #d2d;
+    float: left;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background:red;
+}
