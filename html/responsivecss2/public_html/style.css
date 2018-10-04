@@ -1,61 +1,12 @@
-.mainDiv{
-    width: 80%;
-    height: 750px;
-    margin: 0 auto;
+#mainDiv{
+    width:100%;
+    height: auto;
 }
-.hedder{
-    width: 100%;
-    height: 100px;
-}
-.logo{
-    width: 15%;
-    height: 100px;
-    float: left;
-}
-.hedline{
-    width: 85%;
-    height: 100px;
-    float: left;
-    background: #ccc;
-}
-.contain{
-    width: 100%;
-    height: 600px;
-}
-.left{
-    width: 20%;
-    height: 600px;
-    float: left;
-    background: #f2f2f2;
-}
-a {
-	list-style: none;
-	display: block;
-	text-decoration: none;
-	padding: 10px;
-	border: 1px solid #2f5;
-	margin: 5px;
-	border-radius: 4px;
-}
-a:hover{
-    font-size: 30px;
-    background: #99ccff;
-}
-.right{
-    width: 80%;
-    height: 600px;
-    float: left; 
-}
-.footer{
-    width: 100%;
-    height: 50px;
-    background: #99ccff;
-}
+
 .row{
-    width: 80%;
-    height: 50px;
+    width: 100%;
+    height: auto;
 }
-/* css for responsive*/
 @media screen and (min-width: 769px){
      .col-lg-12{
         width: 100%;
@@ -254,18 +205,4 @@ a:hover{
 }
 .orange{
     background: orange;
-}
-table{
-    width: 300px;
-    height: auto;
-    margin: 0 auto;    
-}
-tr{
-    height: 100px;   
-}
-td{
-    height: 100px;
-    text-align: center;
-    border: 1px solid black;
-    background: #4caf50;  
 }

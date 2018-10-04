@@ -1,0 +1,17 @@
+h1{
+    color: olive;
+}
+body{
+    background-image: url(logo.png);
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+        
+}
+div{
+    border: double;
+    background: yellow;
+    animation: mymove 5s infinite;
+}
+mymove{
+    50% { border: 15px solid lightpink;}
+}
