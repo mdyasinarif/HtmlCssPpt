@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Supported Form Controls</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <script src="js/bootstrap.js"></script>
+    </head>
+    <body>
+        <div>Input
+            <form role="form">
+                <div class="form-group">
+                    <label for="name">Label</label>
+                    <input type="text" class="form-control" placeholder="Text input">
+
+                </div>
+            </form>
+        </div>
+        <div>TEXTAREA
+            <form role="form">
+                <label>TEXT AREA</label>
+                <textarea class="form-control" rows="3"></textarea>            
+            </form>
+        </div>
+        <label for="name">Example of Default Checkbox and radio button </label>
+        <div class="checkbox">
+            <label><input type="checkbox" value="Yasin">Yasin</label>
+        </div>  
+        <div class="checkbox">
+            <label><input type="checkbox" value="Arif">Arif</label>
+        </div> 
+        <div class="radio">
+            <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios1"
+                       value="option1" checked> Option 1
+            </label>
+        </div>
+        <div class="radio">
+            <label>
+                <input type="radio"name="optionsRadios" id="optionsRadios2"
+                       value="option2"> Option 2
+            </label>
+            <div>
+                <h1>Example of Inline Checkbox and radio button</h1>
+                <div class="checkbox-inline">
+                    <label><input type="checkbox" value="Yasin">Yasin</label>
+                </div>  
+                <div class="checkbox-inline">
+                    <label><input type="checkbox" value="Arif">Arif</label>
+                </div> 
+                <div class="radio checkbox-inline">
+                    <label>
+                        <input type="radio" name="optionsRadios" id="optionsRadios1"
+                               value="option1" checked> Option 1
+                    </label>
+                </div>
+                <div class="radio checkbox-inline">
+                    <label>
+                        <input type="radio"name="optionsRadios" id="optionsRadios2"
+                               value="option2"> Option 2
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h1>SELECTS</h1>
+            <form role="form">
+                <div class="form-group">
+                    <label for="name">Select list</label>
+                    <select class="form-control">
+                        <option>Yasin</option>
+                        <option>Arif</option>
+                        <option>Sohan</option>
+                    </select>
+                    <label for="name">Mutiple  Select list</label>
+                    <select multiple class="form-control">
+                        <option>Yasin</option>
+                        <option>Arif</option>
+                        <option>Sohan</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
