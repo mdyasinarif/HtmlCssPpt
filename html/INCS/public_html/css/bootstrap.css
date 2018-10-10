@@ -4,60 +4,6 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-.hedline{
-    background: #4CAF50;
-    color: white;
-}
-h2{
-    padding: 5px;
-    margin: 5px;
-}
-nav ul li a{
-    color: white;
-    font-size: 17px;
-}
-
-nav ul li a:hover{
-    background: white;
-}
-marquee:hover{
-    color: red;
-}
-.mc{
-	background: #C6FFF1;
-	margin: 5px 0px 5px 0px;
-	height: 500px;
-	float: left;
-        border: 1px solid white;
-	}
-.mc h3{
-	padding:5px;
-	background: #4CAF50;
-	color: #FFFFFF;
-	margin: 5px;
-	color: #fff; 
-	border-bottom: 2px solid #fff;
-        text-align: center;
-	}
-.mc p{
-	padding:5px;
-        text-align: justify;
-        line-height: 2;
-	}
-        .footer p{
-            color: white;
-            text-align: center;
-        }
-
-
-
-
-
-
-
-
-
-/* custome*/
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -9027,3 +8973,68 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+/* custome*/
+.hedline{
+    background: #4CAF50;
+    color: white;
+}
+h2{
+    padding: 5px;
+    margin: 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+}
+
+nav ul li a:hover{
+    background: white;
+}
+marquee:hover{
+    color: red;
+}
+.mc{
+	background: #C6FFF1;
+	margin: 5px 0px 5px 0px;
+	height: 500px;
+	float: left;
+        border: 1px solid white;
+	}
+.mc h3{
+	padding:5px;
+	background: #4CAF50;
+	color: #FFFFFF;
+	margin: 5px;
+	color: #fff; 
+	border-bottom: 2px solid #fff;
+        text-align: center;
+	}
+.mc p{
+	padding:5px;
+        text-align: justify;
+        line-height: 2;
+	}
+        .footer p{
+            color: white;
+            text-align: center;
+        }
+/* Branch page css */
+.brabchnam ul li{
+	list-style:none;
+	display:inline;
+}
+
+
+.brabchnam ul li a {
+	display: block;
+	background: #fff;
+	text-decoration: none;
+	padding: 5px 30px;
+	background: #28A745;
+	margin: 5px;
+	font-weight: bold;
+	color: #E6E6E6;
+}
+.brabchnam ul li a:hover{
+	background:#1F8035;
+	color:blue;
