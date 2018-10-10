@@ -10,8 +10,9 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/bootstrap.css"/>
+        <link rel="stylesheet" href="css/all.css"/>
         <link rel="icon" href="image/favicon.png" sizes="16x16" type="image/png">
-        <script src="js/jquery.min.js"></script>
+        <script src="js/jQuery.js"></script>
         <script src="js/bootstrap.js"></script>
 
     </head>
@@ -19,150 +20,173 @@ and open the template in the editor.
         <div class="container-fluid">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-1"><img src="image/logo.png"></div>
-                    <div class="col-lg-11 hedline"><marquee><h2>ইমামিয়া চিশতীয়া নেজামীয়া সংঘ</h2></marquee></div>
+                    <div class="hedline col-lg-4 col-md-4 col-sm-4 col-xl-4">
+                        <h2>ইমামিয়া চিশতীয়া নেজামীয়া সংঘ</h2>
+                    </div>
+                    <div class="hedline col-lg-8 col-md-8 col-sm-8 col-xl-8">
+                        <marquee><h2>“সামনে সুন্দর সময় আসছে মানুষ সত্য খুজবে, সত্য গ্রহন করবে প্থিবীতে শান্তি আসবে”-সূফী সদর উদ্দিন আহমদ চিশতী</h2></marquee>
+                    </div>
+
                 </div>
             </div>
-            <div class="container-fluid">
-                <div class="row">
-                    <nav class="navbar bg-success navbar-success">
-                        <div class="col-lg-6 col-md-6 col-sm-6" >
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="index.html">হোম</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="Pages/branch.html">শাখা</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="Pages/elibrary.html">ই লাইব্রেরী</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="Pages/picture.html">ছবি</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="Pages/videos.html">ভিডিও</a>
-                                </li>
+            <nav class="navbar navbar-expand-sm  bg-success navbar-success">
+                <div class="col-lg-6 col-md-4 col-sm-4 col-xs-4">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">হোম</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Pages/branch.html">শাখা</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Pages/elibrary.html">ই লাইব্রেরী</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Pages/picture.html">ছবি</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Pages/videos.html">ভিডিও</a>
+                        </li>
 
-                                <li class="nav-item">
-                                    <a class="nav-link" href="Pages/publication.html">পাবলিকেশন</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="Pages/ContactUs.html">যোগাযোগ</a>
-                                </li>
-                                <!-- Dropdown -->
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="Pages/wines.html" id="navbardrop" data-toggle="dropdown">
-                                        উইনস
-                                    </a>
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="#">Link 1</a>
-                                        <a class="dropdown-item" href="#">Link 2</a>
-                                        <a class="dropdown-item" href="#">Link 3</a>
-                                    </div>
-                                </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Pages/publication.html">পাবলিকেশন</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Pages/ContactUs.html">যোগাযোগ</a>
+                        </li>
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="Pages/wines.html" id="navbardrop" data-toggle="dropdown">
+                                উইনস
+                            </a>
+                            <div class="dropdown-menu dbg">
+                                <a class="dropdown-item" href="#">কৃষি</a>
+                                <a class="dropdown-item" href="#">ব্যবসা</a>
+                                <a class="dropdown-item" href="#">শরীরচর্চা</a>
+                                <a class="dropdown-item" href="#">জ্ঞান / শিক্ষা</a>
+                                <a class="dropdown-item" href="#">মৌলিক গবেষণা</a>
+                                <a class="dropdown-item" href="#">ভ্রমন ও বিনোদন</a>
+                                <a class="dropdown-item" href="#">সেবা, কল্যাণ ও আশ্রম</a>
+                                <a class="dropdown-item" href="#">মিডিয়া / গনযোগাযোগ </a>
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class=" navbar-nav col-lg-4 col-md-4 col-sm-4 col-xs-4">
+
+                    <form class="navbar-form navbar-center" action="/action_page.php">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="User Name">
+                            <input type="password" class="form-control" placeholder="Password">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit">
+                                    <i class="fa fa-sign-in-alt glyphicon-sign-in"></i>
+                                    <i class="fa fa-sign-out-alt-alt glyphicon-sign-out"></i>
+                                </button>
+                            </div>
                         </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6" >
-                            <form class="form-inline" action="/action_page.php">
-                                <input class="form-control mr-sm-2" type="text" placeholder="User Name" size="10">
-                                <input class="form-control mr-sm-2" type="password" placeholder="Password" size="10">
-                                <button class="btn btn-success" type="signin">Sign In</button>
-                                <button class="btn btn-success" type="signout">Sign Out</button>
-                            </form>
-                            </ul>
+                    </form> 
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
+                    <form class="navbar-form navbar-right" action="/action_page.php">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit">
+                                    <i class="fa fa-search glyphicon-search"></i>
+                                </button>
+                            </div>
                         </div>
-                    </nav>
+                    </form> 
                 </div>
+            </nav>
+        </div>
+        <div class="container">
+            <div id="demo" class="carousel slide" data-ride="carousel">
 
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="image/Qpart1.png" alt="Qpart1" width="240" height="340">
+                        <img src="image/Qpart2.png" alt="Qpart2" width="240" height="340">
+                        <img src="image/Qpart3.png" alt="Qpart3" width="240" height="340">
+                        <img src="image/philosopyQ.png" alt="philosopyQ" width="240" height="340">
+
+
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image/mogiddorsin.png" alt="mogiddorsin" width="220" height="340">
+                        <img src="image/cablaosalat.png" alt="cablaosalat" width="220" height="340">
+                        <img src="image/korbani.png" alt="korbani" width="220" height="340">
+                        <img src="image/siamdorson.png" alt="siamdorson2" width="220" height="340">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image/asarosura.png" alt="asarosura" width="220" height="340">
+                        <img src="image/suraarrohaman.png" alt="suraarrohaman" width="220" height="340">
+                        <img src="image/surabakara.png" alt="surabakara" width="220" height="340">
+                    </div>
+                </div>
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
             </div>
-
         </div>
-    </div>
-    <div class="container">
-        <div id="demo" class="carousel slide" data-ride="carousel">
+        <div class="row">
+            <div class="col-lg-4 mc">
+                <h3>বানী</h3>
+                <marquee direction="left" behavior="alternate">
+                    <h4>রসুলল্লাহ (আ.) ইরশাদ করেন :</h4>
+                </marquee>
+                <marquee direction="up" height="350">
+                    <p>আমি জ্ঞানের শহর এবং আলী তার দরজা -সহীহ মুসলিম<br>
 
-            <!-- Indicators -->
-            <ul class="carousel-indicators">
-                <li data-target="#demo" data-slide-to="0" class="active"></li>
-                <li data-target="#demo" data-slide-to="1"></li>
-                <li data-target="#demo" data-slide-to="2"></li>
-            </ul>
+                        হোসাইন আমা হতে আমি হোসাইন হতে-মিশকাত শরীফ<br>
 
-            <!-- The slideshow -->
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="image/Qpart1.png" alt="Qpart1" width="240" height="340">
-                    <img src="image/Qpart2.png" alt="Qpart2" width="240" height="340">
-                    <img src="image/Qpart3.png" alt="Qpart3" width="240" height="340">
-                    <img src="image/philosopyQ.png" alt="philosopyQ" width="240" height="340">
+                        ফাতেমা আমার দেহেরই একটি টুকরা যে তাকে রাগান্বিত <br>
+                        করল সে যেন আমাকে রাগান্বিত করল -সহীহ বুখারী-মুসলিম<br>
+
+                        হাসান ও হোসাইন বেহেস্তের যুবকদের সরদার-সহীহ বুখারী<br>
+
+                        আমি তোমাদের নিকট অতি ভারি দুইটি বস্তু রেখে যাচ্ছি,<br>
+                        প্রথমত আল কোরআন ,দ্বিতীয়ত আমার আহলে বাইত<br>
+                        যদি এ দুটিকে আঁকড়িয়ে  ধরে রাখো, তোমরা কখন গুমরা<br>
+                        (পথভ্রষ্ঠ) হবে না, যদি একটিকে ছাড় তবে  গুমরা(পথভ্রষ্ঠ) <br>
+                        হয়ে যাবে। সহীহ মুসলিম-তিরমীজি<br>
 
 
-                </div>
-                <div class="carousel-item">
-                    <img src="image/mogiddorsin.png" alt="mogiddorsin" width="220" height="340">
-                    <img src="image/cablaosalat.png" alt="cablaosalat" width="220" height="340">
-                    <img src="image/korbani.png" alt="korbani" width="220" height="340">
-                    <img src="image/siamdorson.png" alt="siamdorson2" width="220" height="340">
-                </div>
-                <div class="carousel-item">
-                    <img src="image/asarosura.png" alt="asarosura" width="220" height="340">
-                    <img src="image/suraarrohaman.png" alt="suraarrohaman" width="220" height="340">
-                    <img src="image/surabakara.png" alt="surabakara" width="220" height="340">
-                </div>
+                        আমার আহলে বাইতের দৃষ্ঠান্ত নুহ-এর তরীর-মত, <br>
+                        যে এতে আরোহন করলো সে নাজাত পেল-তাফসীরে দূর্রে <br>
+                        মানসুর মাসনাদে হাম্মাল</p>
+                </marquee>
             </div>
-            <!-- Left and right controls -->
-            <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a class="carousel-control-next" href="#demo" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </a>
+            <div class="col-lg-4 mc">
+                <h3>অনুষ্ঠান সূচী</h3>
+            </div>
+            <div class="col-lg-4 mc">
+                <h3>নোটিশ বোর্ড</h3>
+                <p><b>মাওলা মোহাম্মদ (আ:) ও আহলে বাইতগনের<br>
+                        আশেকানগনকে  তথ্য প্রযুক্তির মাধ্যমে স্বাগতম।<br></b>
+
+                    ইমামীয়া চিশতীয়া নেজামীয়া সংঘ। <br>
+                    আমিনপাড়া , চুনকুটিয়া , কেরানীগঞ্জ , ঢাকা।</p>
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-4 mc">
-            <h3>বানী</h3>
-            <marquee direction="left" behavior="alternate">
-                <h4>রসুলল্লাহ (আ.) ইরশাদ করেন :</h4>
-            </marquee>
-            <marquee direction="up" height="350">
-                <p>আমি জ্ঞানের শহর এবং আলী তার দরজা -সহীহ মুসলিম<br>
-
-                    হোসাইন আমা হতে আমি হোসাইন হতে-মিশকাত শরীফ<br>
-
-                    ফাতেমা আমার দেহেরই একটি টুকরা যে তাকে রাগান্বিত <br>
-                    করল সে যেন আমাকে রাগান্বিত করল -সহীহ বুখারী-মুসলিম<br>
-
-                    হাসান ও হোসাইন বেহেস্তের যুবকদের সরদার-সহীহ বুখারী<br>
-
-                    আমি তোমাদের নিকট অতি ভারি দুইটি বস্তু রেখে যাচ্ছি,<br>
-                    প্রথমত আল কোরআন ,দ্বিতীয়ত আমার আহলে বাইত<br>
-                    যদি এ দুটিকে আঁকড়িয়ে  ধরে রাখো, তোমরা কখন গুমরা<br>
-                    (পথভ্রষ্ঠ) হবে না, যদি একটিকে ছাড় তবে  গুমরা(পথভ্রষ্ঠ) <br>
-                    হয়ে যাবে। সহীহ মুসলিম-তিরমীজি<br>
-
-
-                    আমার আহলে বাইতের দৃষ্ঠান্ত নুহ-এর তরীর-মত, <br>
-                    যে এতে আরোহন করলো সে নাজাত পেল-তাফসীরে দূর্রে <br>
-                    মানসুর মাসনাদে হাম্মাল</p>
-            </marquee>
+        <div class="footer bg-success">
+            <p>WWW.Imamia Chistia Njamia Songo.com</p>
         </div>
-        <div class="col-lg-4 mc">
-            <h3>অনুষ্ঠান সূচী</h3>
-        </div>
-        <div class="col-lg-4 mc">
-            <h3>নোটিশ বোর্ড</h3>
-            <p><b>মাওলা মোহাম্মদ (আ:) ও আহলে বাইতগনের<br>
-                    আশেকানগনকে  তথ্য প্রযুক্তির মাধ্যমে স্বাগতম।<br></b>
 
-                ইমামীয়া চিশতীয়া নেজামীয়া সংঘ। <br>
-                আমিনপাড়া , চুনকুটিয়া , কেরানীগঞ্জ , ঢাকা।</p>
-        </div>
-    </div>
-    <div class="footer bg-success">
-        <p>WWW.Imamia Chistia Njamia Songo.com</p>
-    </div>
-</div>
 
-</body>
+    </body>
 </html>

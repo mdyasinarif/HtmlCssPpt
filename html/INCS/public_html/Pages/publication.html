@@ -10,71 +10,124 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/bootstrap.css"/>
-        <script src="js/bootstrap.js"></script>
+        <link rel="stylesheet" href="../css/all.css"/>
         <link rel="icon" href="image/favicon.png" sizes="16x16" type="image/png">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="../js/jQuery.js"></script>
+        <script src="../js/bootstrap.js"></script>
     </head>
     <body>
         <div class="container-fluid">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-1"><img src="../image/logo.png"></div>
-                    <div class="col-lg-11 hedline"><marquee><h2>ইমামিয়া চিশতীয়া নেজামীয়া সংঘ</h2></marquee></div>
+                    <div class="hedline col-lg-4 col-md-4 col-sm-4 col-xl-4">
+                        <h2>ইমামিয়া চিশতীয়া নেজামীয়া সংঘ</h2>
+                    </div>
+                    <div class="hedline col-lg-8 col-md-8 col-sm-8 col-xl-8">
+                        <marquee><h2>“সামনে সুন্দর সময় আসছে মানুষ সত্য খুজবে, সত্য গ্রহন করবে প্থিবীতে শান্তি আসবে”-সূফী সদর উদ্দিন আহমদ চিশতী</h2></marquee>
+                    </div>
+
                 </div>
             </div>
-            <div class="container-fluid">
-                <div class="row">
-                    <nav class="navbar navbar-expand-sm  bg-success navbar-success">
-                        <!-- Links -->
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="../index.html">হোম</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../Pages/branch.html">শাখা</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../Pages/elibrary.html">ই লাইব্রেরী</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../Pages/picture.html">ছবি</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../Pages/videos.html">ভিডিও</a>
-                            </li>
+            <nav class="navbar navbar-expand-sm  bg-success navbar-success">
+                <div class="col-lg-6 col-md-4 col-sm-4 col-xs-4">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">হোম</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Pages/branch.html">শাখা</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Pages/elibrary.html">ই লাইব্রেরী</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Pages/picture.html">ছবি</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Pages/videos.html">ভিডিও</a>
+                        </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="../Pages/publication.html">পাবলিকেশন</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../Pages/ContactUs.html">যোগাযোগ</a>
-                            </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Pages/publication.html">পাবলিকেশন</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Pages/ContactUs.html">যোগাযোগ</a>
+                        </li>
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="../Pages/wines.html" id="navbardrop" data-toggle="dropdown">
+                                উইনস
+                            </a>
+                            <div class="dropdown-menu dbg">
+                                <a class="dropdown-item" href="#">কৃষি</a>
+                                <a class="dropdown-item" href="#">ব্যবসা</a>
+                                <a class="dropdown-item" href="#">শরীরচর্চা</a>
+                                <a class="dropdown-item" href="#">জ্ঞান / শিক্ষা</a>
+                                <a class="dropdown-item" href="#">মৌলিক গবেষণা</a>
+                                <a class="dropdown-item" href="#">ভ্রমন ও বিনোদন</a>
+                                <a class="dropdown-item" href="#">সেবা, কল্যাণ ও আশ্রম</a>
+                                <a class="dropdown-item" href="#">মিডিয়া / গনযোগাযোগ </a>
 
-
-                            <!-- Dropdown -->
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="../Pages/wines.html" id="navbardrop" data-toggle="dropdown">
-                                    উইনস
-                                </a>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">Link 1</a>
-                                    <a class="dropdown-item" href="#">Link 2</a>
-                                    <a class="dropdown-item" href="#">Link 3</a>
-                                </div>
-                            </li>
-                            <form class="form-inline" action="/action_page.php">
-                                <input class="form-control mr-sm-2" type="text" placeholder="User Name">
-                                <input class="form-control mr-sm-2" type="password" placeholder="Password">
-                                <button class="btn btn-success" type="signin">Sign In</button>
-                                <button class="btn btn-success" type="signout">Sign Out</button>
-                                <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                                <button class="btn btn-success" type="submit">Search</button>
-                            </form>
-                        </ul>
-                    </nav>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
+                <div class=" navbar-nav col-lg-4 col-md-4 col-sm-4 col-xs-4">
+             
+                    <form class="navbar-form navbar-center" action="/action_page.php">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="User Name">
+                            <input type="password" class="form-control" placeholder="Password">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit">
+                                    <i class="fa fa-sign-in-alt glyphicon-sign-in"></i>
+                                    <i class="fa fa-sign-out-alt-alt glyphicon-sign-out"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form> 
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
+                    <form class="navbar-form navbar-right" action="/action_page.php">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit">
+                                    <i class="fa fa-search glyphicon-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form> 
+                </div>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="brabchnam col-lg-3">
+                <h2>পাবলিকেশন</h2>
+                <hr/>
+                <ul>
+                    <li><a href="#">কোরান দর্শন-প্রথম খণ্ড</a></li>
+                    <li><a href="#">কোরান দর্শন-দ্বিতীয় খণ্ড</a></li>
+                    <li><a href="#">কোরান দর্শন-তৃতীয় খণ্ড</a></li>
+                    <li><a href="#">কোরান দর্শন(১৪ সূরা)</a></li>
+                    <li><a href="#">Philosophy of the Holy Quran</a></li>
+                    <li><a href="#">সূরা বাকারা</a></li>
+                    <li><a href="#">সূরা আর রহমান ও ওয়াকেয়া</a></li>
+                    <li><a href="#">এগার সূরা</a></li>
+                    <li><a href="#">ছয় সূরা</a></li>
+                    <li><a href="#">মসজিদ দর্শন</a></li>
+                    <li><a href="#">মাওলার অভিষেক ও মতভেদের কারণ</a></li>
+                    <li><a href="#">ক্বেবলা ও সালাত</a></li>
+                    <li><a href="#">সিয়াম দর্শণ</a></li>
+                    <li><a href="#">কোরবানী</a></li>
+                    <li><a href="#">কোরানুল হাকীমে সাঙ্কেতিক অক্ষরসমূহের পরিচয় ও শব্দ সংজ্ঞা</a></li>
+
+                </ul>
             </div>
+            <div class="col-lg-9">
+                <iframe name="brabchn"src="#" width="100%" height="300" frameborder='0'></iframe>
+            </div>
+        </div>
             <div class="footer bg-success">
                 <p>WWW.Imamia Chistia Njamia Songo.com</p>
             </div>
