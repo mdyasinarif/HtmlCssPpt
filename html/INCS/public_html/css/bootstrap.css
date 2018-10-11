@@ -9043,6 +9043,7 @@ marquee:hover{
 .container img {
   transition: transform 0.25s ease;
   cursor: zoom-in;
+  z-index: 1000;
 }
 
 .container img:active {
@@ -9052,7 +9053,7 @@ marquee:hover{
 }
 .hide-bullets {
     list-style:none;
-    margin-left: -40px;
+    margin-left:-40px;
     margin-top:20px;
 }
 
@@ -9079,6 +9080,12 @@ h1,h2,h3 {
 	font-family: 'Patua One', cursive;
 	text-transform: uppercase;
 	letter-spacing:1px;
+}
+h4{
+    color:#28A745;
+    text-align:center;
+    padding:5px 0px;
+       
 }
 
 p{
@@ -9125,7 +9132,7 @@ textarea.form-control{
   outline: 0;
   padding: 12px;
   color: white;
-  background-color: #000;
+  background-color: #28A745;
   text-align: center;
   cursor: pointer;
   width: 100%;
@@ -9134,3 +9141,4 @@ textarea.form-control{
 
 .card button:hover {
   opacity: 0.7;
+}

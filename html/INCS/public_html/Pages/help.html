@@ -14,55 +14,121 @@ and open the template in the editor.
         <link rel="icon" href="image/favicon.png" sizes="16x16" type="image/png">
         <script src="../js/jQuery.js"></script>
         <script src="../js/bootstrap.js"></script>
-        <style>
-            .details-cart-btn {
-                height: 50px;
-                width: 200px;
-                font-size: 135%;
-                color: #fff !important;
-                border-radius: 3px;
-                background-color: #f90;
-                box-shadow: 0 3px 6px -4px #a2a2a2;
-                background-position: center;
-                -webkit-transition: background .8s;
-                transition: background .8s;
-                display: inline-block;
-                vertical-align: middle;
-                font-weight: 700;
-            }
-            .checked {
-                color: orange;
-            </style>
-        </head>
-        <body>
-            <div class="row">         
-                <div class="col-lg-4">
-                    <img src="../image/Qpart1.png" alt="Qpart1"/>
-                </div>
-                <div class="col-lg-4">
-                    <h1>কোরবানী</h1>
-                    <h2> সদর উদ্দিন আহমদ চিশতী</h2>
-                    <p>
-                        TK. 158<strike class="original-price">TK. 180</strike><span> 12% Off</span>
-                    </p>
-                    <p>
-                        <span>Category: </span>
-                        <a href="/book/category/376">
-                            হজ্জ-উমরাহ ও কোরবানি
-                        </a>
-                    </p>
-                    <div>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                        <span> Rating</span>
-                    </div>
-                    <div class="btn details-cart-btn"> 
-                        <span>Go To Cart</span>
-                    </div>
-                </div>
+
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#">Project name</a>
+                        </div>
+                        <div id="navbar" class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Action</a></li>
+                                        <li><a href="#">Another action</a></li>
+                                        <li><a href="#">Something else here</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li class="dropdown-header">Nav header</li>
+                                        <li><a href="#">Separated link</a></li>
+                                        <li><a href="#">One more separated link</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li class="active"><a href="./">Default <span class="sr-only">(current)</span></a></li>
+                                <li><a href="../navbar-static-top/">Static top</a></li>
+                                <li><a href="../navbar-fixed-top/">Fixed top</a></li>
+                            </ul>
+                        </div><!--/.nav-collapse -->
+                    </div><!--/.container-fluid -->
+                </nav>
+                <!--                <nav class="navbar navbar-expand-sm  bg-success navbar-success">
+                                <div class="col-lg-6 col-md-4 col-sm-4 col-xs-4">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="../index.html">হোম</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="../Pages/branch.html">শাখা</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="../Pages/elibrary.html">ই লাইব্রেরী</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="../Pages/picture.html">ছবি</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="../Pages/videos.html">ভিডিও</a>
+                                        </li>
+                
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="../Pages/publication.html">পাবলিকেশন</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="../Pages/ContactUs.html">যোগাযোগ</a>
+                                        </li>
+                                         Dropdown 
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="../Pages/wines.html" id="navbardrop" data-toggle="dropdown">
+                                                উইনস
+                                            </a>
+                                            <div class="dropdown-menu dbg">
+                                                <a class="dropdown-item" href="#">কৃষি</a>
+                                                <a class="dropdown-item" href="#">ব্যবসা</a>
+                                                <a class="dropdown-item" href="#">শরীরচর্চা</a>
+                                                <a class="dropdown-item" href="#">জ্ঞান / শিক্ষা</a>
+                                                <a class="dropdown-item" href="#">মৌলিক গবেষণা</a>
+                                                <a class="dropdown-item" href="#">ভ্রমন ও বিনোদন</a>
+                                                <a class="dropdown-item" href="#">সেবা, কল্যাণ ও আশ্রম</a>
+                                                <a class="dropdown-item" href="#">মিডিয়া / গনযোগাযোগ </a>
+                
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class=" navbar-nav col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                             
+                                    <form class="navbar-form navbar-center" action="#">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="User Name">
+                                            <input type="password" class="form-control" placeholder="Password">
+                                            <div class="input-group-btn">
+                                                <button class="btn btn-default" type="submit">
+                                                    <i class="fa fa-sign-in-alt glyphicon-sign-in"></i>
+                                                    <i class="fa fa-sign-out-alt-alt glyphicon-sign-out"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form> 
+                                </div>
+                                <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
+                                    <form class="navbar-form navbar-right" action="#">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="Search">
+                                            <div class="input-group-btn">
+                                                <button class="btn btn-default" type="submit">
+                                                    <i class="fa fa-search glyphicon-search"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form> 
+                                </div>
+                            </nav>-->
             </div>
-        </body>
-    </html>
+        </div>
+    </body>
+</html>
