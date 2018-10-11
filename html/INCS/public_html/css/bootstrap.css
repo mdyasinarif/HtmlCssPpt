@@ -9040,6 +9040,16 @@ marquee:hover{
 	color:blue;
 }
 /* picture*/
+.container img {
+  transition: transform 0.25s ease;
+  cursor: zoom-in;
+}
+
+.container img:active {
+  -webkit-transform: scale(2);
+  transform: scale(2);
+  cursor: zoom-out;
+}
 .hide-bullets {
     list-style:none;
     margin-left: -40px;
@@ -9050,9 +9060,11 @@ marquee:hover{
     padding: 0;
 }
 
-.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+
+.carousel-inner>.item>a>img {
     width: 100%;
 }
+
 /* contuc us*/
 body{
 	width:100%;
@@ -9094,3 +9106,31 @@ textarea.form-control{
 .dbg{
     background:#C6FFF1;
 }
+/*publication*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;

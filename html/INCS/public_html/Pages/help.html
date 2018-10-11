@@ -6,42 +6,63 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>help</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/bootstrap.css"/>
+        <link rel="stylesheet" href="../css/all.css"/>
         <link rel="icon" href="image/favicon.png" sizes="16x16" type="image/png">
         <script src="../js/jQuery.js"></script>
         <script src="../js/bootstrap.js"></script>
-    </head>
-    <body>
-        <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="#">WebSiteName</a>
+        <style>
+            .details-cart-btn {
+                height: 50px;
+                width: 200px;
+                font-size: 135%;
+                color: #fff !important;
+                border-radius: 3px;
+                background-color: #f90;
+                box-shadow: 0 3px 6px -4px #a2a2a2;
+                background-position: center;
+                -webkit-transition: background .8s;
+                transition: background .8s;
+                display: inline-block;
+                vertical-align: middle;
+                font-weight: 700;
+            }
+            .checked {
+                color: orange;
+            </style>
+        </head>
+        <body>
+            <div class="row">         
+                <div class="col-lg-4">
+                    <img src="../image/Qpart1.png" alt="Qpart1"/>
                 </div>
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Page 1-1</a></li>
-                            <li><a href="#">Page 1-2</a></li>
-                            <li><a href="#">Page 1-3</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Page 2</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-                </ul>
+                <div class="col-lg-4">
+                    <h1>কোরবানী</h1>
+                    <h2> সদর উদ্দিন আহমদ চিশতী</h2>
+                    <p>
+                        TK. 158<strike class="original-price">TK. 180</strike><span> 12% Off</span>
+                    </p>
+                    <p>
+                        <span>Category: </span>
+                        <a href="/book/category/376">
+                            হজ্জ-উমরাহ ও কোরবানি
+                        </a>
+                    </p>
+                    <div>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span> Rating</span>
+                    </div>
+                    <div class="btn details-cart-btn"> 
+                        <span>Go To Cart</span>
+                    </div>
+                </div>
             </div>
-        </nav>
-
-        <div class="container">
-            <h3>Right Aligned Navbar</h3>
-            <p>The .navbar-right class is used to right-align navigation bar buttons.</p>
-        </div>
-
-    </body>
-</html>
+        </body>
+    </html>
